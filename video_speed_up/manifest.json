@@ -1,5 +1,4 @@
-{
-    "name": "1.5x",
+{    "name": "1.5x",
     "version": "2.0",
     "manifest_version": 2,
     "description": "Build an Extension which on youtube video played automatically speeds it upto 1.5x!!",
@@ -8,9 +7,9 @@
         "scripts": ["background.js"],
         "persistent": false
       },
-    "page_action":{
+    "browser_action":{
         "default_title":"1.5x"
     },
     "permissions":
-        ["background","tabs","https://www.youtube.com/*"]
+        ["background","tabs","activeTab","https://*/*","http://*/*"]
   }
