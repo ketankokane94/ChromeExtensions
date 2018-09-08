@@ -10,7 +10,7 @@ content.js (is the script file which gets injected in the tab process and intera
 important: the content.js and the background.js file cannot call each other, hence have to use communication API of chrome to enable the communication.
 
 used : 
- page_action API
+ browser_action API
  
 
 
