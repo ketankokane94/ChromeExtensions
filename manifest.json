@@ -1,6 +1,16 @@
 {
-    "name": "Getting Started with building a chrome extension",
-    "version": "1.0",
+    "name": "1.5x",
+    "version": "2.0",
+    "manifest_version": 2,
     "description": "Build an Extension which on youtube video played automatically speeds it upto 1.5x!!",
-    "manifest_version": 1
+    
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "page_action":{
+        "default_title":"1.5x"
+    },
+    "permissions":
+        ["background","tabs","https://www.youtube.com/*"]
   }
